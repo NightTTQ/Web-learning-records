@@ -1,0 +1,21 @@
+.text
+{
+    text-align: center;
+    color:blue;
+}
+
+.text p.special
+{
+    color:black;
+}
+
+.text p.special span.chance
+{
+    color:red;
+}
+
+.in,.resultField
+{
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>猜数字游戏</title>
+        <link rel="stylesheet" href="javascript.css">
+    </head>
+    <body>
+        <div class="text">
+            <h1>欢迎体验猜数字游戏</h1>
+            <p>请输入您猜的数字(范围：1~100的整数)</p>
+            <p class="special">您还有<span class="chance">10</span>次机会！</p>
+        </div>
+        
+        <div class="in">
+            <input type="number" class="guessField">
+            <button type="submit" class="guessSubmit">提交</button>
+        </div>
+
+        <div class="resultField" id="resultField">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="LorH"></p>
+        </div>
+        <script src="javascript.js"></script>
+</html>
